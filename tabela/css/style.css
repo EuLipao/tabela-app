@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font: normal 12pt arial;
+  }
+  img{
+    padding:20px;
+    width: 100px;
+  
+  }
+  .header{
+    background: linear-gradient(to right,#ffcc00,#ffec9e);
+    margin-bottom: 10px;
+  }
+  #checklisth{
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+  }
+  #dados{
+    width: 100%;
+    padding: 5px;
+    border: solid 2px black;
+  }
+  .strong{
+    font-weight: bold;
+  }
+  #inspecao {
+    
+    margin-top: 5px;
+    border: solid 2px black;
+    border-collapse: collapse;
+  }
+  #inspecao tr td {
+    padding: 5px;
+    border: solid 1px black;
+  }
+  
