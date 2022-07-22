@@ -2,15 +2,18 @@
     box-sizing: border-box;
     font: normal 12pt arial;
   }
+  /*tamanho das imagens header*/
   img{
     padding:20px;
     width: 100px;
   
   }
+  /* fundo header*/
   .header{
     background: linear-gradient(to right,#ffcc00,#ffec9e);
     margin-bottom: 10px;
   }
+  /* tamanho e posição infos do dados*/
   #checklisth{
     font-size: 1.2em;
     font-weight: bold;
@@ -18,22 +21,30 @@
     top: 3%;
     right: 5%;
   }
+  /*tamanho da tabela dos dados*/
   #dados{
     width: 100%;
     padding: 5px;
     border: solid 2px black;
   }
+  /*para deixar itens em negrito*/
   .strong{
     font-weight: bold;
   }
+  /*espaço entre tabelas e linha externa da tabela*/
   #inspecao {
     
     margin-top: 5px;
     border: solid 2px black;
     border-collapse: collapse;
   }
+  /* linhas internas da tabela e centralização dos itens*/
   #inspecao tr td {
-    padding: 5px;
+    padding: 3px;
     border: solid 1px black;
+    text-align: center;
   }
-  
+  /* foto(assinatura fica 100% do tamanho do seu pai, no caso a celula*/
+ #tamanho-img{
+  width: 100%;
+ }
